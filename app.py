@@ -13,11 +13,11 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("tomorrow will be a better day")
+      encouragement_list.append("Don't feel sad, tomorrow will be a better day!")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("to keep smiling")
+      encouragement_list.append("keep it up!")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
@@ -26,7 +26,7 @@ while True:
 
   if counter == 0:
     
-      output = "Sorry I don't really understand. Please use different words?"
+      output = "Sorry I don't really understand. Could you please describe it in a different way?"
 
   elif counter == 1:
     
