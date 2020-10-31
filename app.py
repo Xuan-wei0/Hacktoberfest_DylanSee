@@ -21,7 +21,7 @@ while True:
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("you are stronger than you think")
+      encouragement_list.append("Get some rest and you are stronger than you think")
       counter += 1
     if each_word == "angry":
       feelings_list.append("angry")
@@ -64,4 +64,4 @@ while True:
 
   print()
   print(output)
-  print()
+  print("Thank you for using this encouragement bot. I hope that this really helped you!")
